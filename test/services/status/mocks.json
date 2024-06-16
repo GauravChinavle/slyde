@@ -1,0 +1,19 @@
+{
+    "createStatus": {
+        "success": {
+            "request": {
+                "content": "Hi this is my status"
+            },
+            "response": {
+                "userID": "666df1b13b5780e9a99aa2af",
+                "contentType": "text",
+                "content": "Hi There",
+                "contentURL": null,
+                "_id": "666ea07fbb30afe6dd8eda20",
+                "createdAt": "2024-06-16T08:21:19.465Z",
+                "updatedAt": "2024-06-16T08:21:19.465Z",
+                "__v": 0
+            }
+        }
+    }
+}

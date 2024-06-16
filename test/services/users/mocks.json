@@ -1,0 +1,30 @@
+{
+    "createUser": {
+        "success": {
+            "request": {
+                "name": "John Doe",
+                "username": "john1d@mail.com",
+                "password": "abcd",
+                "mobileNumber": 1234567880,
+                "email": "m1@gg.com",
+                "website": "https://www.google.com",
+                "bio": "i like colors",
+                "gender": "MALE"
+            },
+            "response": {
+                "name": "John Doe",
+                "username": "john1d@mail.com",
+                "password": "abcd",
+                "email": "m1@gg.com",
+                "mobileNumber": "1234567880",
+                "gender": "MALE",
+                "website": "https://www.google.com",
+                "bio": "i like colors",
+                "_id": "666ea019bb30afe6dd8eda1c",
+                "createdAt": "2024-06-16T08:19:37.135Z",
+                "updatedAt": "2024-06-16T08:19:37.135Z",
+                "__v": 0
+              }
+        }
+    }
+}

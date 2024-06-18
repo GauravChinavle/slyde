@@ -1,0 +1,17 @@
+{
+    "createFollow": {
+        "success": {
+            "request": {
+                "followeeID": "666df1b23b5780e9a99aa2bb"
+            },
+            "response": {
+                "followerID": "666df1b13b5780e9a99aa2af",
+                "followeeID": "666df1b23b5780e9a99aa2bb",
+                "_id": "666ea17de0365a29b413b983",
+                "createdAt": "2024-06-16T08:25:33.079Z",
+                "updatedAt": "2024-06-16T08:25:33.079Z",
+                "__v": 0
+            }
+        }
+    }
+}

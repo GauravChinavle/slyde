@@ -1,0 +1,40 @@
+{
+  "name": "SLYDE",
+  "version": "1.0.0",
+  "description": "SLYDE - slyde into DMs",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "TEST_RUN=true ./node_modules/.bin/mocha ./test/app.js --timeout 10000 --exit",
+    "dev": "nodemon ./app.js",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "lint:test": "./node_modules/.bin/eslint ./test",
+    "lint:fix": "./node_modules/.bin/eslint ./src --fix"
+  },
+  "author": "Gaurav Chinawale",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.598.0",
+    "chai": "5.1.1",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "express-http-context": "1.2.4",
+    "install": "0.13.0",
+    "joi": "17.13.1",
+    "jsonwebtoken": "9.0.2",
+    "lodash": "4.17.21",
+    "mocha": "10.4.0",
+    "mongoose": "8.4.1",
+    "multer": "1.4.5-lts.1",
+    "nodemon": "3.1.2",
+    "npm": "10.8.1",
+    "sinon": "18.0.0",
+    "uuid": "10.0.0",
+    "winston": "3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-plugin-node": "11.1.0"
+  }
+}

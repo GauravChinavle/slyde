@@ -1,4 +1,4 @@
-# Slyde
+# Slyde - into DMs
 
 Slyde is a Node.js backend application that allows users to perform operations on their profiles, post statuses, follow other users, and interact with statuses through likes and comments. This project aims to provide a seamless social networking experience with real-time updates and personalized feeds.
 
